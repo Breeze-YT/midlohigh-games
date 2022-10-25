@@ -59,9 +59,9 @@ export default function Component(): JSX.Element {
 			<FooterCopyright>
 				<div style={{ paddingLeft: 8 }}>
 					<div style={{ display: "inline-flex", alignItems: "start", flexDirection: "column" }}>
-						<span>Copyright © 2019-{(new Date).getFullYear()} • All Rights Reserved</span>
+						<span>Copyright © {(new Date).getFullYear()} • All Rights Reserved</span>
 						<div>
-							<a href="//joshmerlino.github.io" className="link">Josh Merlino</a> • <a href="//th3skeleton.github.io/pshel/" className="link">Parker Sheldon</a>  • And our amazing <a href="//github.com/SHSGames/shsgames.github.io/graphs/contributors" target="_blank">Contributors</a>
+							<a href="//github.com/Breeze-YT" className="link">Dr. Abels Favorite</a> & <a href="//" className="link">Midlo High Schools horrible security systems</a>  • Click <a href="//midlohigh-math.herokuapp.com" target="_blank">this for a suprise!</a>
 						</div>
 					</div>
 					<div style={{ alignItems: "start", flexDirection: "column", marginLeft: "auto", display: "table", marginTop: "-26px", transform: "translateY(-4px)" }}>
