@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: games
+    plan: free
+    env: node
+    buildCommand: npm install
+    startCommand: npm start
